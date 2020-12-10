@@ -1,0 +1,234 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F7F7;
+    margin: 0;
+}
+
+/* -------------------------NAVIGATION----------------------------- */
+nav {
+    background-color: #ffffff;
+}
+
+nav ul li a {
+    color: #474747;
+}
+
+nav ul li a:hover {
+    color: #96EDCD;
+    border: solid 1px #96EDCD;
+}
+
+.active {
+    color: #ffffff;
+    background-color: #96EDCD !important;
+    /* pointer-events: none; */
+}
+
+#pembuka
+{
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    display: flex;
+    background-color: white;
+}
+.pembuka-judul
+{
+    width: 50%;
+    padding: 50px;
+}
+.pembuka-judul h1
+{
+    font-size: 50px;
+}
+.pembuka-judul p
+{
+    padding: 25px;
+    margin-left: 100px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 2px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px black;
+    color: rgb(100, 100, 100);
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+main header
+{
+    padding-top: 50px;
+}
+
+#sub-judul
+{
+    text-align: center;
+    padding: 0 100px;
+    color: rgb(100, 100, 100);
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+form label
+{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.input-post
+{
+    padding: 15px 10px;
+    border: none;
+    box-shadow: 0 0 2px 0 black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+form textarea
+{
+    height: 150px;
+}
+.submit
+{
+    margin: 10px auto;
+    width: 30%;
+    border: none;
+    background-color:rgb(78, 255, 78);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit:hover
+{
+    color:rgb(78, 255, 78);
+    background-color: white;
+    box-shadow: 0 0 5px 1px rgb(78, 255, 78);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.display
+{
+    margin: 50px 100px;
+}
+.post-container
+{
+    margin: 50px 0;
+    background-color: white;
+}
+.post
+{
+    padding: 10px 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.komentar
+{
+    padding: 10px 50px;
+}
+.orang
+{
+    
+    border-top: 1px solid black;
+}
+.input-komentar textarea
+{
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.input-komentar #kirim-komentar
+{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgb(78, 255, 78);
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+.input-komentar #kirim-komentar:hover
+{
+    color:  rgb(78, 255, 78);
+    background-color: white;
+}
+
+
+
+.ket
+{
+    margin-bottom: 100px;
+    padding: 30px 100px 0 100px;
+}
+
+
+
+
+.tanggal
+{
+    position: absolute;
+    right: 90px;
+    bottom: 8px;
+}
+.dot
+{
+    margin-right: 10px;
+    padding: 2px 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.icon:hover
+{
+    cursor: pointer;
+}
+.icon
+{
+    position: absolute;
+    bottom: 0;
+}
+.icon img:hover
+{
+    width: 55px;
+    transition: .2s;
+}
+
+.comment
+{
+    left: 100px;
+}
+.share
+{
+    right: 50px;
+    
+}

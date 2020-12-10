@@ -1,0 +1,117 @@
+
+.menu-toggle div {
+    background-color:  #474747 !important;
+}
+/* -------------------------NAVIGATION----------------------------- */
+nav {
+    background-color: #ffffff;
+}
+
+nav ul li a {
+    color: #474747;
+}
+
+nav ul li a:hover {
+    color: #96EDCD;
+    border: solid 1px #96EDCD;
+}
+
+.active {
+    color: #ffffff;
+    background-color: #96EDCD;
+    /* pointer-events: none; */
+}
+
+/* -------------------------CONTAINER----------------------------- */
+.container {
+    /* height: 200vh; */
+    padding: 100px 50px;
+    background-color: #f7f7f7;
+}
+
+.container p, .container h2 {
+    color: #575757;
+}
+
+/* -------------------------CONTENT 1----------------------------- */
+.content1 {
+    background-color: #ffffff;
+    display: flex;
+}
+.photo {
+    width: 400px;
+    height: 400px;
+    background-color: #96EDCD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo img{
+    padding-right: 20px;
+}
+.info {
+    padding: 60px;
+    width: 100%;
+}
+
+.info h1 {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.info p {
+    width: 70%;
+}
+
+.update {
+    margin-top: 10px;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.content2 {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.content2 p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content2 h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+#provinsi {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+td, tr {
+    padding: 10px;
+    text-align: center;
+}
+
+#rumahSakit {
+    margin-top: 20px;
+}
+
+#rumahSakit td{
+    text-align: left;
+}

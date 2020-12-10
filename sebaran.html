@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sebaran Covid-19 di Indonesia" />
+    <meta name="author" content="Adithia Tirta Zulfikar, Thomas Budi Santosa" />
+
+    <title>Sebaran | Pusat Data Covid-19 Indonesia</title>
+
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/sebaran.css">
+    <link rel="icon" href="images/logo_mini_red.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+   <!-- navigation -->
+   <nav>
+      <div>
+        <a href="#"><img src="images/logo_grey.png" alt="logo" id="logo"></a>
+      </div>
+
+      <ul class="nav">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="sebaran.html" class="active">Sebaran</a></li>
+        <li><a href="Edukasi.html">Edukasi</a></li>
+        <li><a href="Forum.html">Forum</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="Faq.html">FAQ</a></li>
+        <li><a href="Form.html">Akun</a></li>
+        <!-- <li><a href="#">Mode</a></li> -->
+        <!-- <li><button onclick="toggle_light_mode()" id="modeToggle">Mode</button></li> -->
+      </ul>
+
+      <div class="menu-toggle"" >
+        <input type="checkbox" id="menu">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="content1">
+        <div class="photo">
+          <img src="images/iconPerson.png" alt="iconPerson">
+        </div>
+        <div class="info">
+          <h1>Data Sebaran Covid-19 di Indonesia</h1>
+          <p>Berikut adalah data sebaran pandemi Corona di Indonesia. Data dan informasi bersumber dari pemerintah.</p>
+          <div class="update">
+            <p><b>Perbaruan terakhir</b></p>
+            <p>02 Desember 2020 03:29:08 +07:00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content2">
+        <p>Peta Data Covid-19</p>
+        <form>
+          <label for="provinsi">Pilih Provinsi</label>
+          <select name="provinsi" id="provinsi">
+            <option value="Banten">Banten</option>
+            <option value="Jakarta">DKI Jakarta</option>
+            <option value="JaBar">Jawa Barat</option>
+            <option value="JaTeng">Jawa Tengah</option>
+            <option value="DIY">Daerah Istimewa Yogyakarta</option>
+            <option value="JaTim">Jawa Timur</option>
+          </select>
+
+          <label for="kota">Pilih Kota</label>
+          <select name="kota" id="kota">
+            <option value="Semarang">Semarang</option>
+            <option value="Kudus">Kudus</option>
+            <option value="Banyuwangi">Banyuwangi</option>
+            <option value="Pati">Pati</option>
+            <option value="Demak">Demak</option>
+          </select>
+        </form>
+        
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d32654820.88251222!2d117.8888!3d-2.44565!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1607424191758!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <h3>Data Provinsi</h3>
+        <p>( Jawa Tengah )</p>
+        <table>
+          <tr>
+            <th>Kabupaten/Kota</th>
+            <th>Terkonfirmasi</th>
+            <th>Dalam Perawatan</th>
+            <th>Sembuh</th>
+            <th>Meninggal</th>
+          </tr>
+
+          <tr>
+            <td>Semarang</td>
+            <td>4000</td>
+            <td>1000</td>
+            <td>2800</td>
+            <td>200</td>
+          </tr>
+          
+          <tr>
+            <td>Kudus</td>
+            <td>2000</td>
+            <td>1000</td>
+            <td>900</td>
+            <td>100</td>
+          </tr>
+
+          <tr>
+            <td>Banyuwangi</td>
+            <td>1500</td>
+            <td>1000</td>
+            <td>600</td>
+            <td>200</td>
+          </tr>
+
+          <tr>
+            <td>Pati</td>
+            <td>2000</td>
+            <td>1000</td>
+            <td>700</td>
+            <td>300</td>
+          </tr>
+
+          <tr>
+            <td>Demak</td>
+            <td>1800</td>
+            <td>1000</td>
+            <td>500</td>
+            <td>300</td>
+          </tr>
+        </table>
+
+        <h3>Data Kota</h3>
+        <p>( Semarang )</p>
+        <table>
+          <tr>
+            <th>Kecamatan</th>
+            <th>Terkonfirmasi</th>
+            <th>Dalam Perawatan</th>
+            <th>Sembuh</th>
+            <th>Meninggal</th>
+          </tr>
+
+          <tr>
+            <td>Genuk</td>
+            <td>500</td>
+            <td>200</td>
+            <td>200</td>
+            <td>100</td>
+          </tr>
+          
+          <tr>
+            <td>Mijen</td>
+            <td>400</td>
+            <td>100</td>
+            <td>200</td>
+            <td>100</td>
+          </tr>
+
+          <tr>
+            <td>Gunung Pati</td>
+            <td>200</td>
+            <td>70</td>
+            <td>60</td>
+            <td>70</td>
+          </tr>
+
+          <tr>
+            <td>Ngaliyan</td>
+            <td>500</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+          </tr>
+
+          <tr>
+            <td>Banyumanik</td>
+            <td>400</td>
+            <td>220</td>
+            <td>80</td>
+            <td>100</td>
+          </tr>
+        </table>
+        
+        <h3>Data Rumah Sakit Rujukan Covid-19</h3>
+        <p>( Jawa Tengah )</p>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d32654820.88251222!2d117.8888!3d-2.44565!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1607424191758!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+        <table id="rumahSakit">
+          <tr>
+            <th>Nama Rumah Sakit</th>
+            <th>Alamat</th>
+            <th>Telepon</th>
+          </tr>
+
+          <tr>
+            <td>RSUP Dr. Kariadi Semarang </td>
+            <td>Jl. DR. Sutomo No. 16, Randusari, Kecamatan Semarang Selatan, Kota Semarang 50244</td>
+            <td>(024) 8413476</td>
+          </tr>
+
+          <tr>
+            <td>RSUD KRMT Wongsonegoro Semarang </td>
+            <td>Jl. Fatmawati No. 1, Mangunharjo, Kecamatan Tembalang, Kota Semarang 50272</td>
+            <td>(024) 6711500</td>
+          </tr>
+
+          <tr>
+            <td>RSU Sultan Agung Semarang</td>
+            <td>Jl. Kaligawe Raya KM 4, Terboyo Kulon, Kecamatan Genuk, Kota Semarang 50112</td>
+            <td>(024) 6580019</td>
+          </tr>
+          
+          <tr>
+            <td>RSUD Tugurejo Semarang</td>
+            <td>Jl. Walisongo No. 137 KM 8.5, Tambakaji, Kecamatan Ngaliyan, Kota Semarang 50185</td>
+            <td>(024) 7605297</td>
+          </tr>
+
+          <tr>
+            <td>RSU St. Elizabeth Semarang</td>
+            <td>Jl. Kawi Raya No. 1, Tegalsari, Kecamatan Candisari, Kota Semarang 50614</td>
+            <td>(024) 8310035</td>
+          </tr>
+
+        </table>
+      </div>
+
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-div1">
+          <a href="#"><img src="images/logo_white.png" alt="logo" id="logo2"></a>
+          <p>Ikuti kami</p>
+          <div class="sosmed">
+            <a href="#"><img src="images/sosmed1.png" alt="icon1"></a>
+            <a href="#"><img src="images/sosmed2.png" alt="icon2"></a>
+            <a href="#"><img src="images/sosmed3.png" alt="icon3"></a>
+            <a href="#"><img src="images/sosmed4.png" alt="icon4"></a>
+          </div>
+          <p>Kebijakan Privasi</p>
+          <p><i>&copy; Pusat Data Covid-19 | All RIght Reserved</i></p>
+        </div>
+  
+        <div class="footer-div2">
+          <h2>Layanan</h2>
+          <ul>
+            <a href="sebaran.html"><li>Sebaran</li></a>
+            <a href="Edukasi.html"><li>Edukasi</li></a>
+            <a href="Forum.html"><li>Forum</li></a>
+            <a href="berita.html"><li>Berita</li></a>
+            <a href="Faq.html"><li>FAQ</li></a>
+          </ul>
+        </div>
+  
+        <div class="footer-div3">
+          <h2>Hubungi Kami</h2>
+          <form>
+            <input type="email" placeholder="email">
+            <input type="text" placeholder="pesan anda">
+            <a href="#">Kirim</a>
+          </form>
+        </div>
+    </footer>
+
+    <!-- Pemanggilan script javascript -->
+    <script src="script/index.js"></script>
+    <script src="script/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script/chatbox.js"></script>
+</body>
+</html>

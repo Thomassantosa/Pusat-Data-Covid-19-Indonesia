@@ -1,0 +1,105 @@
+@media screen and (max-width: 1100px)
+{
+    #pembuka
+    {
+        width: 100%;
+        display: block;
+    }
+    #pembuka .pembuka-judul
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    #pembuka img
+    {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 900px)
+{
+    .ket
+    {
+        padding: 20px 60px 0 60px;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    .ket
+    {
+        padding: 20px 30px 0 30px;
+    }
+}
+
+
+@media screen and (max-width: 500px)
+{
+    
+    #pembuka img
+    {
+        display: none;
+    }
+
+    main header
+    {
+        padding-top: 10px;
+    }
+    #sub-judul
+    {
+        padding: 0 50px;
+    }
+
+    form
+    {
+        width: 60%;
+    }
+    form label
+    {
+        font-size: 20px;
+
+    }
+
+    .display
+    {
+        margin: 10px;
+    }
+    .post h1
+    {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .ket
+    {
+        margin-bottom: 50px;
+        padding: 20px 10px 0 10px;
+    }
+
+    .tanggal
+    {
+        position: static;
+        margin-bottom: 15%;
+    }
+}
+@media screen and (max-width: 350px)
+{
+
+    .post
+    {
+        padding: 10px;
+    }
+    .ket
+    {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .tanggal
+    {
+        position: static;
+        margin-bottom: 20%;
+    }
+}

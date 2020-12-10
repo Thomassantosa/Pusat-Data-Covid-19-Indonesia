@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Forum Diskusi">
+    <meta name="author" content="Adithia Tirta Zulfikar, Thomas Budi Santosa">
+
+    <title>Forum | Pusat Data Covid-19 Indonesia</title>
+    <link rel="icon" href="images/logo_mini_red.png">
+    <link rel="stylesheet" href="style/forumStyle.css">
+    <link rel="stylesheet" href="style/forumRes.css">
+    <link rel="stylesheet" href="style/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- navigation -->
+    <nav>
+        <div>
+          <a href="#"><img src="images/logo_grey.png" alt="logo" id="logo"></a>
+        </div>
+  
+        <ul class="nav">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="sebaran.html">Sebaran</a></li>
+          <li><a href="Edukasi.html">Edukasi</a></li>
+          <li><a href="Forum.html" class="active">Forum</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="Faq.html">FAQ</a></li>
+          <li><a href="Form.html">Akun</a></li>
+          <!-- <li><a href="#">Mode</a></li> -->
+          <!-- <li><button onclick="toggle_light_mode()" id="modeToggle">Mode</button></li>
+          <input type="checkbox" name="toggleMode" id="toggleMode"> -->
+        </ul>
+  
+        <div class="menu-toggle"" >
+          <input type="checkbox" id="menu">
+          <div id="line1"></div>
+          <div id="line2"></div>
+          <div id="line3"></div>
+        </div>
+      </nav>
+
+    <header id="pembuka">
+        <div class="pembuka-judul">
+            <h1>Selamat Datang di Forum Diskusi</h1>
+            <p>Ditempat ini kalian dapat bertanya dan berdiskusi dengan orang lain mengenai COVID-19.
+            Tapi sebelumnya jangan lupa kalian harus sudah membuat akun terlebih dahulu sebelum menggunakan fitur ini.</p>
+        </div>
+        <img src="images/forum.jpg" width="50%">
+    </header>
+
+    <main>        
+        <header>
+            <p id="sub-judul">Dalam membuka ruang diskusi atau pun bertanya, harap gunakan tata bahasa yang baik dan tidak keluar dari topi COVID-19, Jika ditemukan penyimpangan maka akan kami hapus postingan anda!.</p>
+        
+            <div class="input">
+                <form action="#">
+                    <label>Silahkan Masukan Pertanyaan Anda</label>
+                    <input type="text" class="input-post" id="judul" placeholder="Pertanyaan Anda*">
+                    <textarea class="input-post" id="keterangan" placeholder="Keterangan*"></textarea>
+                    <button class="submit">Kirim</button>
+                </form>
+            </div>
+        </header>
+        <div class="display">
+
+            <div class="display-post"></div>
+
+            <div class="post-container">
+                
+                <div class="post">
+                    <h1>Apakah vaksin COVID-19 adalah obat?</h1>
+                    <p class="ket">Aku bingung vaksin itu obat atau hanya untuk pencagahannya saja ya?
+                        Terima Kasih, Salam Dari Bandung, StaySafe yaa kalian semua.
+                    </p>
+                    <p class="tanggal"><span class="dot"></span>7 Desember 2020</p>
+                    <p class="icon"><img src="images/like.png" width="30"></p>
+                    <p class="icon comment" id="show-comment"><img src="images/comment.png" width="30"></p>
+                    <p class="icon share"><img src="images/share.png" width="30"></p>
+    
+                    
+                </div>
+                <div class="komentar">
+                    <div class="orang">
+                        <h3>Thomas Budi Santosa</h3>
+                        <p>Vaksin bukanlah obat. Vaksin mendorong pembentukan kekebalan spesifik pada penyakit COVID-19 agar terhindar dari tertular ataupun kemungkinan sakit berat.</p>                  
+                    </div>
+                    <div class="orang">
+                        <h3>Adithia Tirta Zulfikar</h3>
+                        <p>Selama vaksin yang aman dan efektif belum ditemukan, upaya perlindungan yang bisa kita lakukan adalah disiplin 3M: Memakai masker dengan benar, Menjaga jarak dan jauhi kerumunan, serta mencuci tangan pakai air mengalir dan sabun.</p>
+                    </div>
+                    <div class="input-komentar orang">
+                        <textarea rows="4" placeholder="Komentar*"></textarea>
+                        <button class="submit" id="kirim-komentar">Kirim</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post">
+                    <h1>Ini covid kapan selesainya?</h1>
+                    <p class="ket">Udah gak kuat aku, pemasukan ngga ada, tapi pengeluaran terus mendesak, mohon doanya ya</p>
+                    <p class="tanggal"><span class="dot"></span>4 Desember 2020</p>
+                    <p class="icon"><img src="images/like.png" width="30"></p>
+                    <p class="icon comment"><img src="images/comment.png" width="30"></p>
+                    <p class="icon share"><img src="images/share.png" width="30"></p>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post">
+                    <h1>Skema penahapan pemberian vaksin di Indonesia</h1>
+                    <p class="ket">Di tahapan awal, vaksinasi COVID-19 akan diperuntukkan bagi garda terdepan dengan risiko tinggi, yaitu tenaga kesehatan dan petugas pelayanan publik. Lalu secara bertahap akan diperluas seiring dengan ketersediaan vaksin dan izinnya, yaitu penerima bantuan iuran BPJS, dan kelompok masyarakat lainnya.</p>
+                    <p class="tanggal"><span class="dot"></span>1 Desember 2020</p>
+                    <p class="icon"><img src="images/like.png" width="30"></p>
+                    <p class="icon comment"><img src="images/comment.png" width="30"></p>
+                    <p class="icon share"><img src="images/share.png" width="30"></p>
+                </div>
+            </div>
+           
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-div1">
+          <a href="#"><img src="images/logo_white.png" alt="logo" id="logo2"></a>
+          <p>Ikuti kami</p>
+          <div class="sosmed">
+            <a href="#"><img src="images/sosmed1.png" alt="icon1"></a>
+            <a href="#"><img src="images/sosmed2.png" alt="icon2"></a>
+            <a href="#"><img src="images/sosmed3.png" alt="icon3"></a>
+            <a href="#"><img src="images/sosmed4.png" alt="icon4"></a>
+          </div>
+          <p>Kebijakan Privasi</p>
+          <p><i>&copy; Pusat Data Covid-19 | All RIght Reserved</i></p>
+        </div>
+  
+        <div class="footer-div2">
+          <h2>Layanan</h2>
+          <ul>
+            <a href="sebaran.html"><li>Sebaran</li></a>
+            <a href="Edukasi.html"><li>Edukasi</li></a>
+            <a href="Forum.html"><li>Forum</li></a>
+            <a href="berita.html"><li>Berita</li></a>
+            <a href="Faq.html"><li>FAQ</li></a>
+          </ul>
+        </div>
+  
+        <div class="footer-div3">
+          <h2>Hubungi Kami</h2>
+          <form>
+            <input type="email" placeholder="email">
+            <input type="text" placeholder="pesan anda">
+            <a href="#">Kirim</a>
+          </form>
+        </div>
+    </footer>
+
+    <script src="script/main.js"></script>
+    <script src="script/chatbox.js"></script>
+    <script src="script/forumScript.js"></script>
+</body>
+</html>

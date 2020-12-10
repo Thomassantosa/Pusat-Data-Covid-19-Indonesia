@@ -1,0 +1,53 @@
+/* -------------------------RESPONSIVE----------------------------- */
+@media screen and (max-width: 1100px) {
+    .banner {
+        height: 57vh;
+    }
+
+    .content1 {
+        /* position: relative; */
+        width: 50%;
+        padding: 60px 20px;
+        height: 57vh;
+        /* background-color: yellow; */
+    }
+
+    .header1 p {
+        font-size: 4vw;
+    }
+
+    .text1 {
+        width: 90%;
+    }
+    
+    .text1 p {
+        margin-top: 5px;
+    }
+
+    .button1 {
+        margin-top: 20px;
+    }
+
+    /* --------------------------------------------- */
+    .content2 {
+        width: 100%;
+    }
+    /* --------------------------------------------- */
+    .content6 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .news {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-news p:nth-child(3) {
+        margin-left: 35%;
+    }
+
+    .number {
+        margin-bottom: 25px;
+    }
+}

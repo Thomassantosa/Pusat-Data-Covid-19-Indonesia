@@ -1,0 +1,374 @@
+* {box-sizing: border-box;}
+body
+{
+    background-color: #F7F7F7;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.menu-toggle div {
+    background-color:  #ffffff !important;
+}
+/* -------------------------NAVIGATION----------------------------- */
+nav ul li a {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #96EDCD;
+    border: solid 1px #96EDCD;
+}
+
+/*~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+header
+{
+    color: white;
+    background-color: #282d43;
+    display: flex;
+    box-shadow: 0 5px 10px 3px #282d43;
+}
+header video
+{
+    padding: 80px 80px 0 80px;
+    height: 550px;
+}
+header .pembuka
+{
+    padding: 100px 30px 0 30px;
+    background-color: rgba(255, 255, 255, .2);
+}
+header .pembuka h1
+{
+    font-size: 40px;
+}
+header .pembuka p
+{
+    text-align: justify;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+header .pembuka a
+{
+    background-color: #282d43;
+    padding: 13px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 50px 0;
+    opacity: .7;
+}
+
+/*~~~~~~~~~~~~~~~Tambahan~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.title
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0;
+}
+.title h2
+{
+    margin: 0 200px;
+}
+.title p
+{
+    color: rgb(100, 100, 100);
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.title2
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 0 100px;
+    margin: 50px 0;
+}
+.title2 p
+{
+    color: rgb(100, 100, 100);
+    margin: 0;
+}
+
+.sub-title
+{
+    display: flex;
+}
+/*~~~~~~~~~~~~~~~CONTENT~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.contents
+{
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    border-radius: 10px;
+    display: flex;
+    margin: 0 100px 50px 100px;
+    background-color: white;
+}
+.left
+{
+    
+    margin: 10px 50px;
+    width: 30%;
+}
+.right
+{
+    margin: 10px 50px;
+    width: 30%;
+}
+.left img, .right img
+{
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.itemImg
+{
+    flex-grow: 2;
+}
+
+.itemP
+{
+    padding-top: 20px;
+    flex-grow: 3;
+}
+.itemP h2
+{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.itemP p
+{
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.hastag
+{
+    display: inline-block;
+    margin: 20px 5px;
+    text-decoration: none;
+    background-color: #282d43;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    opacity: .6;
+}
+
+
+/*Paralax*/
+.parallax {
+    background-image: url("../images/backgroundFix.jpg");
+    
+    box-shadow: 0 0 15px 7px #282d43; 
+    /* Set a specific height */
+    height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* ~~~~~~~~~~~~~~~~~~~~STYLE Saat COVID~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.tengah
+{
+    position: relative;
+}
+.backColor
+{
+    top: 50px;
+    position: absolute;
+    background-color: #9e9d9d;
+    box-shadow: 0 0 8px 3px #9e9d9d;
+    height: 200px;
+    width: 100%;
+}
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color:white;
+  padding: 50px 0;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0 0 10px 5px gray;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+.text {
+    margin: 20px 100px 0 150px;
+    color: #717171;
+    font-size: 18px;
+    text-align: justify;
+}
+.mySlides h1
+{
+    display: inline;
+    
+}
+.judul-text {
+    color: black;
+    margin-left: 20px;
+    text-decoration: underline 2px red;
+}
+.num
+{
+    margin-left: 50px;
+    color: red;
+    font-size: 70px;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~SAAT KORONA~~~~~~~~~~~~~~~~~~~~ */
+.container-korona
+{
+    margin: 100px 0;
+}
+.headerLast
+{
+
+    background-color: white;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.headerLastText
+{
+    padding: 100px 0;
+    margin: 10px;
+}
+.headerLastText h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.headerLastText p
+{
+    text-align: justify;
+    padding: 50px 80px 0 80px;
+    font-size: 20px;
+    color: #717171;
+}
+.headerLast img
+{
+    margin: 10px;
+    height: 500px;
+}
+
+
+
+/*  contentLast */
+.contentLast
+{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.contentLast .last
+{
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.contentLast .last:hover
+{
+    background-color: #838383;
+    color: white;
+    cursor: pointer;
+}
+.contentLast .last h3
+{
+    margin: 0;
+}
+.contentLast .last .cl
+{
+    margin: 30px 100px 0 100px;
+}
+
+.contentLast .last .cl ul li
+{
+    list-style-type: decimal;
+    line-height: 25px;
+}
